@@ -11,3 +11,5 @@ CS135 Lecture Notes
 int main { //entry point to every C++ program
 
 }
+
+- << endl; is similar to \n";, HOWEVER, \n is typically better as it runs much faster
