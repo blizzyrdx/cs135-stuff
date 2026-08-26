@@ -5,6 +5,7 @@ CS135 Lecture Notes
 - recompiling deletes the old ./a.out
 - ~ means "here"
 - #inlcude <iostream> is a library that allows for input and output in the terminal
+- ;, a semicolon tells the program that a certain task is complete and can move on
 
 int main { //entry point to every C++ program
 
