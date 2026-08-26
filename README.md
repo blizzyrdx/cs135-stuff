@@ -1,6 +1,6 @@
 CS135 Lecture Notes
 - ls shows current files
-- cd "something" goes into that file or directory
+- cd "something" goes into that file or directory: for VS Code do cd "folder name" if it has spaces or just cd foldername
 - g++ main.cpp (or file), then ./a.out to run the code in the terminal
 - recompiling deletes the old ./a.out
 - ~ means "here"
