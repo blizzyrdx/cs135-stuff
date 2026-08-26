@@ -6,6 +6,7 @@ CS135 Lecture Notes
 - ~ means "here"
 - #inlcude <iostream> is a library that allows for input and output in the terminal
 - ;, a semicolon tells the program that a certain task is complete and can move on
+- << is an insert operator meaning to insert what you get in a string or variable into the cout
 
 int main { //entry point to every C++ program
 
