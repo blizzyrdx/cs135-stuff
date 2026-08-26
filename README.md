@@ -14,3 +14,4 @@ int main { //entry point to every C++ program
 
 - << endl; is similar to \n";, HOWEVER, \n is typically better as it runs much faster
 - C++ doesn't care about whitespaces meaning you can continue a code if you go a line under
+- Command + k or clear erases the visible terminal
