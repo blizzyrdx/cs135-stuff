@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// Identifiers must only contain letters, digits, and underscore (like monsterHealth)
+
 int main () {
     int monsterHealth = 100; //stores it in RAM
     cout << "Monster's health: " << monsterHealth << "\n";
