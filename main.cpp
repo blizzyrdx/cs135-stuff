@@ -1,8 +1,12 @@
+// Write a program that stores a monster's health in RAM, then
+// outputs the monster's health.
+
 #include <iostream>
 
 using namespace std;
 
 int main () {
-    cout << "Hello CodeGrade!\n";
+    int monsterHealth = 100; //stores it in RAM
+    cout << "Monster's health: " << monsterHealth << "\n";
     return 0;
 }
