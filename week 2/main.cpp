@@ -17,4 +17,4 @@ int main () {
 
 //data types: integer (whole numbers)
 //you can use long long instead of int to store bigger numbers
-// ASCII is characters you can use
+// ASCII is characters you can use, any number you put in a char gives the corresponding ASCII 
