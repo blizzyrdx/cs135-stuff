@@ -16,3 +16,4 @@ int main () {
 }
 
 //data types: integer (whole numbers)
+//you can use long long instead of int to store bigger numbers
