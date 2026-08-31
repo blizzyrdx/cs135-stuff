@@ -5,7 +5,8 @@
 
 using namespace std;
 
-// Identifiers must only contain letters, digits, and underscore (like monsterHealth)
+// Identifiers must only contain letters, digits, and underscore (like monsterHealth); cannot have namespaces
+// Reserved Words cannot be identifier
 
 int main () {
     int monsterHealth = 100; //stores it in RAM
