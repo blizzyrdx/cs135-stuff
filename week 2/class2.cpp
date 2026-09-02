@@ -1,5 +1,5 @@
 #include <iostream> //preprocessor directive that allows compiler to include the contents of the iostream file in the program
-#include <cmath>
+#include <cmath> //also included in iostream on macOS, but not on Windows.
 
 using namespace std;
 
