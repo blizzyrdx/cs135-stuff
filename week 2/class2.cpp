@@ -18,3 +18,9 @@ int main () {
 
     return 0;
 }
+
+/* implicit typecast is when the program automatically converts one data type to another
+results in floating point value 
+static_cast<newtype>(expression) is used to convert one data type to another
+
+*/
