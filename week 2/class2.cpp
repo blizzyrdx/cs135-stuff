@@ -1,18 +1,19 @@
-#include <iostream>
+#include <iostream> //preprocessor directive that allows compiler to include the contents of the iostream file in the program
+#include <cmath>
 
 using namespace std;
 
 int main () {
-    int user_weight, run_energy;
+    double user_weight, run_energy;
     cout << "Enter your weight (lbs): ";
     cin >> user_weight;
     cout << "Enter the amount of energy you burn per mile (calories): ";
     cin >> run_energy;
 
-     // Calculations
+     // Calculations (added cmath for floor and sqrt functions)
 
-    int drainrate = sqrt(user_weight) * 0.3;
-    int timetil0 = run_energy / drainrate;
+    double drainrate = floor(sqrt(user_weight) * 0.3);
+    double timetil0 = floor(run_energy / drainrate);
     cout << "Time until zero energy: " << timetil0 << " minutes" << endl;
 
 
