@@ -3,7 +3,19 @@
 using namespace std;
 
 int main () {
-    cout << "Hello, World!" << endl;
+    double num1, num2;
+    cout << "Enter the first number (floating-point): ";
+    cin >> num1;
+    cout << "Enter the second number (floating-point): ";
+    cin >> num2;
+    cout << "Floating-point results:" << endl;
+    cout << "Sum: " << num1 + num2 << endl;
+    cout << "Difference: " << num1 - num2 << endl;
+    cout << "Product: " << num1 * num2 << endl;
+    cout << "Quotient: " << num1 / num2 << endl;
+    cout << "" << endl;
+    cout << "Integer results (using truncated values):" << endl; 
+    cout << "Integer Division Quotient: " << endl;
     return 0;
 }
 
