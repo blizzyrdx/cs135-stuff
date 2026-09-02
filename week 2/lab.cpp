@@ -24,7 +24,9 @@ int main () {
     //not done yet
 
     cout << "Integer results (using truncated values):" << endl; 
-    cout << "Integer Division Quotient: " << endl;
+    cout << "Integer Division Quotient: " << (int)num1 / (int)num2 << endl;
+    cout << "Modulus: " << (int)num1 % (int)num2 << endl;
+
     return 0;
 }
 
