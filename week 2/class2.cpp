@@ -23,4 +23,9 @@ int main () {
 results in floating point value 
 static_cast<newtype>(expression) is used to convert one data type to another
 
+static_cast<double>(7) / 2 results in 3.5 since 7 is converted to a double before the division occurs and then
+the 2 is converted to a double as well.
+
+static_cast<double>(7 / 2) results in 3 since the division occurs first and then the result is converted to a double.
+
 */
