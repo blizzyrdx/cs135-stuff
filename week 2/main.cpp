@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -23,8 +24,10 @@ int main () {
     cout << "Quotient: " << num1 / num2 << endl;
     cout << "" << endl;
     cout << "Integer results (using truncated values):" << endl; 
-    cout << "Integer Division Quotient: " << static_cast<double>((int)num1 / (int)num2) << endl; //use static cast as in codegrade
-    cout << "Modulus: " << static_cast<double>((int)num1 % (int)num2) << endl; // use modulus operator to find remainder of integer division
+    cout << "Integer Division Quotient: " << (int)num1 / (int)num2 << endl; // integer division
+    cout << "Modulus: " << (int)num1 % (int)num2 << endl; // use modulus operator to find remainder of integer division
 
     return 0;
 }
+
+// static_cast is a safer way to convert data types but can be weird with some data types
