@@ -3,6 +3,13 @@
 using namespace std;
 
 int main () {
+    int door_bundles = 0;
+    int bundle_cost = 1000;
+    cout << "How many door bundles are needed? ";
+    cin >> door_bundles;
+    cout << "How much does each bundle cost? ";
+    cin >> bundle_cost;
+
     return 0;
 }
 
