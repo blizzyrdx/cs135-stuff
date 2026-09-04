@@ -6,40 +6,24 @@ int main () {
 
     // define two floating-point numbers from user input
 
-    double num1, num2;
+    double num1 = 0;
+    double num2 = 0;
     cout << "Enter the first number (floating-point): ";
     cin >> num1;
     cout << "Enter the second number (floating-point): ";
     cin >> num2;
     cout << "Floating-point results:" << endl;
 
-    // Operations
+    // Operations 
 
     cout << "Sum: " << num1 + num2 << endl;
     cout << "Difference: " << num1 - num2 << endl;
     cout << "Product: " << num1 * num2 << endl;
     cout << "Quotient: " << num1 / num2 << endl;
     cout << "" << endl;
-
-    //not done yet
-
     cout << "Integer results (using truncated values):" << endl; 
     cout << "Integer Division Quotient: " << (int)num1 / (int)num2 << endl;
     cout << "Modulus: " << (int)num1 % (int)num2 << endl;
 
     return 0;
 }
-
-/* Goal Of Lab
-Enter the first number (floating-point): 12.7
-Enter the second number (floating-point): 3.4
-
-Floating-point results:
-Sum: 16.1
-Difference: 9.3
-Product: 43.18
-Quotient: 3.73529
-
-Integer results (using truncated values):
-Integer Division Quotient: 4
-Modulus: 0 */
