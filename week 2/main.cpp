@@ -12,6 +12,7 @@ int main () {
     cin >> num1;
     cout << "Enter the second number (floating-point): ";
     cin >> num2;
+    cout << "" << endl;
     cout << "Floating-point results:" << endl;
 
     // Operations 
