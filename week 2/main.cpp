@@ -8,7 +8,8 @@ int main () {
     const double Markup = 0.75;
 
     //variables from user input
-    double door_bundles, bundle_cost;
+    int door_bundles; //integer 
+    double bundle_cost; //double for decimal values
 
     //ask question and get user input
     cout << "How many door bundles are needed? ";
