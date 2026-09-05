@@ -3,12 +3,18 @@
 using namespace std;
 
 int main () {
+    //define variables for user input
     int door_bundles = 0;
     int bundle_cost = 1000;
+
+    //ask question and get user input
     cout << "How many door bundles are needed? ";
     cin >> door_bundles;
     cout << "How much does each bundle cost? ";
     cin >> bundle_cost;
+    cout << "\n"; //space
+
+    //space
 
     return 0;
 }
