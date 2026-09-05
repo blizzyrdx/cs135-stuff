@@ -3,9 +3,12 @@
 using namespace std;
 
 int main () {
-    //define variables for user input
-    int door_bundles = 0;
-    int bundle_cost = 1000;
+    //constants from assignment
+    const double Bundlesize = 100;
+    const double Markup = 0.75;
+
+    //variables from user input
+    double door_bundles, bundle_cost;
 
     //ask question and get user input
     cout << "How many door bundles are needed? ";
@@ -14,7 +17,25 @@ int main () {
     cin >> bundle_cost;
     cout << "\n"; //space
 
-    //space
+    //equations
+    double DoorsTotal = door_bundles * Bundlesize;
+    double CostDoor = bundle_cost / Bundlesize;
+    double TotalCost = door_bundles * bundle_cost;
+    double SalePriceDoor = CostDoor + CostDoor * Markup;
+    double TotalSalesPrice = SalePriceDoor * DoorsTotal;
+    double ProfitPerDOor = SalePriceDoor - CostDoor;
+    double TotalProfit = ProfitPerDOor * DoorsTotal;
+
+    //output results to user
+    cout << "Bundle Quantity: " << door_bundles << endl;
+    cout << "Bundle Cost: " << bundle_cost << endl;
+    cout << "Total Doors Purchased: " << DoorsTotal << endl;
+    cout << "Single Door Cost: " << CostDoor << endl;
+    cout << "Total Cost: " << TotalCost << endl;
+    cout << "Single Door Sale Price: " << SalePriceDoor << endl;
+    cout << "Total Sale Price: " << TotalSalesPrice << endl;
+    cout << "Single Door Profit: " << ProfitPerDOor << endl;
+    cout << "Total Profit: " << TotalProfit << endl;
 
     return 0;
 }
