@@ -23,8 +23,8 @@ int main () {
     cout << "Quotient: " << num1 / num2 << endl;
     cout << "" << endl;
     cout << "Integer results (using truncated values):" << endl; 
-    cout << "Integer Division Quotient: " << (int)num1 / (int)num2 << endl; // integer division
-    cout << "Modulus: " << (int)num1 % (int)num2 << endl; // use modulus operator to find remainder of integer division
+    cout << "Integer Division Quotient: " << static_cast<int>(num1) / static_cast<int>(num2) << endl; // integer division
+    cout << "Modulus: " << static_cast<int>(num1) % static_cast<int>(num2) << endl; // use modulus operator to find remainder of integer division
 
     return 0;
 }
