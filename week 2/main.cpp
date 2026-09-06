@@ -8,13 +8,13 @@ int main () {
     const double Markup = 0.75;
 
     //variables from user input
-    int door_bundles; //integer 
-    double bundle_cost; //double for decimal values
+    int door_bundles = 0; //integer 
+    double bundle_cost = 0; //double for decimal values
 
     //ask question and get user input
     cout << "How many door bundles are needed? ";
     cin >> door_bundles;
-    cout << "How much does each bundle cost? ";
+    cout << "How much does each bundle cost? $";
     cin >> bundle_cost;
     cout << "\n"; //space
 
@@ -29,14 +29,14 @@ int main () {
 
     //output results to user
     cout << "Bundle Quantity: " << door_bundles << endl;
-    cout << "Bundle Cost: " << bundle_cost << endl;
+    cout << "Bundle Cost: $" << bundle_cost << endl;
     cout << "Total Doors Purchased: " << DoorsTotal << endl;
-    cout << "Single Door Cost: " << CostDoor << endl;
-    cout << "Total Cost: " << TotalCost << endl;
-    cout << "Single Door Sale Price: " << SalePriceDoor << endl;
-    cout << "Total Sale Price: " << TotalSalesPrice << endl;
-    cout << "Single Door Profit: " << ProfitPerDOor << endl;
-    cout << "Total Profit: " << TotalProfit << endl;
+    cout << "Single Door Cost: $" << CostDoor << endl;
+    cout << "Total Cost: $" << TotalCost << endl;
+    cout << "Single Door Sale Price: $" << SalePriceDoor << endl;
+    cout << "Total Sale Price: $ " << TotalSalesPrice << endl;
+    cout << "Single Door Profit: $" << ProfitPerDOor << endl;
+    cout << "Total Profit: $" << TotalProfit << endl;
 
     return 0;
 }
