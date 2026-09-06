@@ -34,7 +34,7 @@ int main () {
     cout << "Single Door Cost: $" << CostDoor << endl;
     cout << "Total Cost: $" << TotalCost << endl;
     cout << "Single Door Sale Price: $" << SalePriceDoor << endl;
-    cout << "Total Sale Price: $ " << TotalSalesPrice << endl;
+    cout << "Total Sale Price: $" << TotalSalesPrice << endl;
     cout << "Single Door Profit: $" << ProfitPerDOor << endl;
     cout << "Total Profit: $" << TotalProfit << endl;
 
