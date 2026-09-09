@@ -34,6 +34,7 @@ int main () {
 }
 
 //setw(int) where int is the number of spaces at minimum to provide for the next piece of data output
+//setfill(char) where char is the character to fill in the spaces for setw(int) if the next piece of data output is less than int
 
 /* 
 cout << fixed << setprecision(2) << setw(10) << left << weapon1 << right << setprecision(0) << setw(5) << qty_Scimitar << setw(15) << each1 << setw(15) << total_Scimitar << endl;
