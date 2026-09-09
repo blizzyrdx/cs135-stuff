@@ -16,6 +16,12 @@ int main () {
     const double scimitar_value = 59750.55; 
     const double whip_value = 1487961.22;
 
+    // output to terminal
+    cout << fixed << setprecision(2);
+    cout << "Item\tQty\tEach\tTotal\n";
+    cout << "Scimitar\t" << scimitars << "\t$" << scimitar_value << "\t$" << scimitars * scimitar_value << "\n";
+    cout << "Whip\t" << whips << "\t$" << whip_value << "\t$" << whips * whip_value << "\n";
+
     return 0;
 }
 
