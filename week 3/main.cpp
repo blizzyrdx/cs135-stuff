@@ -1,15 +1,21 @@
 #include <iostream>
 #include <iomanip> //setprecision(int) where int is how many digits of decimal numbers is displayed
 
+// for iomanip theres fixed and scientific notation
 using namespace std;
 
 int main () { 
 
+
+    //defines variables
+    int scimitars;
+    int whips;
+
     //defines the amount of scimimtars and whips looted by the player
     cout << "How many scimitars did you loot? ";
-    int scimitars;
+    cin >> scimitars;
     cout << "How many whips did you loot? ";
-    int whips; 
+    cin >> whips;
 
     // decimals
 
