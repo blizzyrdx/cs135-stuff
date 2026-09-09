@@ -26,6 +26,7 @@ int main () {
 
     //table
     cout << setw(15) << left << "Item" << right << setw(10) << "Qty" << setw(15) << "Each" << setw(15) << "Total" << endl;
+    cout << setw(56) << setfill('-') << "\n";
     cout << setw(15) << left << weapon1 << right << setw(10) << qty_Scimitar << setw(15) << each1 << setw(15) << total_Scimitar << endl;
     cout << setw(15) << left << weapon2 << right << setw(10) << qty_Whip << setw(15) << each2 << setw(15) << total_Whip << endl;
     
