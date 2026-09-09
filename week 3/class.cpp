@@ -9,7 +9,7 @@ int main () {
     string weapon2 = "Whip";
     int qty_Scimitar = 10;
     int qty_Whip = 5;
-    double each = 59750.55, total = qty * each;
+    double each = 59750.55, total = qty_Scimitar * each;
 
     cout << setw(10) << weapon << " " << qty_Scimitar << " " << each << " " << total << endl;
     return 0;
