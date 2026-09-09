@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> //setprecision(int)
+#include <iomanip> //setprecision(int) where int is how many digits of decimal numbers is displayed
 
 using namespace std;
 
