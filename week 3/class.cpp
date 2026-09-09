@@ -6,10 +6,12 @@ using namespace std;
 int main () {
 
     string weapon = "Scimitar";
-    int qty = 10;
+    string weapon2 = "Whip";
+    int qty_Scimitar = 10;
+    int qty_Whip = 5;
     double each = 59750.55, total = qty * each;
 
-    cout << weapon;
+    cout << setw(10) << weapon << " " << qty_Scimitar << " " << each << " " << total << endl;
     return 0;
 }
 
