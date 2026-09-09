@@ -5,14 +5,28 @@ using namespace std;
 
 int main () {
 
-    string weapon = "Scimitar";
+    //defining
+    string weapon1 = "Scimitar";
     string weapon2 = "Whip";
     int qty_Scimitar = 10;
     int qty_Whip = 5;
-    double each = 59750.55, total = qty_Scimitar * each;
+    double each1 = 59750.55, each2 = 1487961.22; 
 
-    cout << setw(10) << weapon << " " << qty_Scimitar << " " << each << " " << total << endl;
-    cout << setw(10) << weapon2 << " " << qty_Whip << " " << each << " " << total << endl;
+
+    // Read scimitar quantity
+    cout << "How many " << weapon1 << "s did you loot? ";
+    cin >> qty_Scimitar;
+    // Read whip quantity
+    cout << "How many " << weapon2 << "s did you loot? ";
+    cin >> qty_Whip;
+
+    //total 
+    double total_Scimitar = qty_Scimitar * each1;
+    double total_Whip = qty_Whip * each2;
+    
+    //table
+    cout << fixed << setprecision(2) << setw(10) << left << weapon1 << right << setprecision(0) << setw(5) << qty_Scimitar << setw(15) << each1 << setw(15) << total_Scimitar << endl;
+    cout << fixed << setprecision(2) << setw(10) << left << weapon2 << right << setprecision(0) << setw(5) << qty_Whip << setw(15) << each2 << setw(15) << total_Whip << endl;
 
     return 0;
 }
