@@ -12,6 +12,8 @@ int main () {
     double each = 59750.55, total = qty_Scimitar * each;
 
     cout << setw(10) << weapon << " " << qty_Scimitar << " " << each << " " << total << endl;
+    cout << setw(10) << weapon2 << " " << qty_Whip << " " << each << " " << total << endl;
+
     return 0;
 }
 
