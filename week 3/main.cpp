@@ -22,7 +22,7 @@ int main () {
     cin >> magic_bonus;
 
     //Magic Hit Formula
-    double max_hit = floorf(Base_Damage * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
+    int max_hit = floorf(Base_Damage * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
 
     //Table Output
     return 0;
