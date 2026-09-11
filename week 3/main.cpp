@@ -12,7 +12,6 @@ int main () {
     const int Fire_Wave = 20;
     int magic_level = 0;
     int magic_bonus = 0;
-    double Base_Damage = 0;
 
     //Prompt user to enter magic level and magic bonus
     //integer values for input
