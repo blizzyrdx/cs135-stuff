@@ -23,9 +23,9 @@ int main () {
     cout << "\n";
 
     //Magic Hit Formula
-    int max_hitBolt = floorf(Fire_Bolt * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
-    int max_hitBlast = floorf(Fire_Blast * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
-    int max_hitWave = floorf(Fire_Wave * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
+    int max_hitBolt = floor(Fire_Bolt * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
+    int max_hitBlast = floor(Fire_Blast * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
+    int max_hitWave = floor(Fire_Wave * (1 + magic_level/100) * sqrt(1 + magic_bonus/100));
 
     //Table Output
     cout << setw(13) << left << "Spell" << setw(11) << "BaseDmg" << setw(8) << "Level" << setw(5) << right << "Bonus" << setw(9) << "MaxHit\n";
