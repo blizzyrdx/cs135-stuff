@@ -19,3 +19,6 @@ int main () {
 }
 
 // Relational Operators such as >, <, =, <=, >=, ==, !=
+
+// if (condition) { run this code }
+// else { run this code }
