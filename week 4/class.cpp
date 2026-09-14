@@ -13,7 +13,6 @@ int main () {
     // reads the player's level
     cout << "What's your level? ";
     cin >> player_level;
-    cout << "\n";
 
     // equations
     if (player_level >= Hespori) {
