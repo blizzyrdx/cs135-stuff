@@ -1,11 +1,15 @@
-/* 
-Selection: Conditional running code
+#include <iostream>
 
-if(condition) {
-    // code to run if condition is true
-} else {
-    // code to run if condition is false
+using namespace std;
+
+int main () {
+
+    // defining variables
+
+    // reads the player's level
+
+    // equations
+
+    // outputs if the player can fitght the boss
+    return 0;
 }
-
-cin.fail() returns true if the last input operation failed, false otherwise
-*/
