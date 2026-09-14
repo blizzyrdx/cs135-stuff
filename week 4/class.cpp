@@ -15,11 +15,11 @@ int main () {
     cin >> player_level;
 
     // equations
-    if (player_level >= Hespori) {
+    if (player_level >= Hespori & player_level < Vortath) {
         cout << "You can fight Hespori!\n";
     }
 
-    else if (player_level >= Vortath) {
+    else if (player_level >= Vortath & player_level < Zale) {
         cout << "You can fight Vortath!\n";
     }
 
