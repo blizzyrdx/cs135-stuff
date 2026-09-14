@@ -11,20 +11,21 @@ int main () {
     const int Zale = 90; // boss 3
 
     // reads the player's level
-    cout << "What's your level? \n";
+    cout << "What's your level? ";
     cin >> player_level;
+    cout << "\n";
 
     // equations
     if (player_level >= Hespori) {
-        cout << "You can fight Hespori!";
+        cout << "You can fight Hespori!\n";
     }
 
     else if (player_level >= Vortath) {
-        cout << "You can fight Vortath!";
+        cout << "You can fight Vortath!\n";
     }
 
     else if (player_level >= Zale) {
-        cout << "You can fight Zale!";
+        cout << "You can fight Zale!\n";
     }
 
     else if (player_level < Hespori) {
