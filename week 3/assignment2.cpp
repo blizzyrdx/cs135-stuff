@@ -28,29 +28,29 @@ int main () {
     int yDist = abs(player_y - monster_y);
 
     // Compute the manhattan and euclidian and save into FLOAT
-    double manhattanDist = xDist + yDist;
-    double euclidianDist = sqrt((xDist * xDist) + (yDist * yDist));
+    double manhattanDist = xDist + yDist; 
+    double euclidianDist = sqrt(pow(xDist, 2) + pow(yDist, 2));
 
     // Output with iomanip 
     // X-Axis
-    cout << "Distances from Player to Monster: \n";
-    cout << "X-Axis:" << setw(22) << setfill ('.') << xDist << "\n";
-    cout << "p" << setw(xDist) << setfill ('-') << "m\n";
+    cout << "Distances from Player to Monster:\n";
+    cout << "X-Axis:" << setw(15) << setfill ('.') << xDist << "\n";
+    cout << "p" << setw(xDist + 2) << setfill ('-') << "m\n";
     cout << "\n";
 
     // Y-Axis
-    cout << "Y-Axis:" << setw(22) << setfill ('.') << yDist << "\n";
-    cout << "p" << setw(yDist) << setfill ('-') << "m\n";
+    cout << "Y-Axis:" << setw(15) << setfill ('.') << yDist << "\n";
+    cout << "p" << setw(yDist + 2) << setfill ('-') << "m\n";
     cout << "\n";
    
     // Manhattan
-    cout << "Manhattan:" << setw(22) << setfill ('.') << manhattanDist << "\n";
-    cout << "p" << setw(yDist) << setfill ('-') << "m\n";
+    cout << "Manhattan:" << setw(12) << setfill ('.') << manhattanDist << "\n";
+    cout << "p" << setw(manhattanDist + 2) << setfill ('-') << "m\n";
     cout << "\n";
 
     // Euclidian
-    cout << "Euclidian:" << setw(22) << setfill ('.') << setprecision(2) << euclidianDist << "\n";
-    cout << "p" << setw(euclidianDist) << setfill ('-') << "m\n";
+    cout << "Euclidean:" << setw(12) << setfill ('.') << fixed << setprecision(2) << euclidianDist << "\n";
+    cout << "p" << setw(euclidianDist + 2) << setfill ('-') << "m\n";
     cout << "\n";
 
     return 0;
