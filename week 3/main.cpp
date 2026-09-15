@@ -49,7 +49,7 @@ int main () {
     cout << "\n";
 
     // Euclidian
-    cout << "Euclidian:" << setw(22) << setfill ('.') << euclidianDist << "\n";
+    cout << "Euclidian:" << setw(22) << setfill ('.') << setprecision(2) << euclidianDist << "\n";
     cout << "p" << setw(euclidianDist) << setfill ('-') << "m\n";
     cout << "\n";
 
