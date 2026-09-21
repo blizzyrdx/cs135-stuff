@@ -8,7 +8,7 @@ int main () {
     cout << "Combat Level: ";
     cin >> combatlvl;
 
-    while (cin.fail() || combatlvl < 3 || combatlvl >> 126)
+    while (cin.fail() || combatlvl < 3 || combatlvl > 126)
     {
         cout << "Error: Combat level must be between 3 and 126\n";
         cin.clear();
@@ -32,3 +32,5 @@ int main () {
 
 // cin.ignore(256, '\n') syntax
 // cin.clear () resets cin.fail() to false
+
+//do loops 
