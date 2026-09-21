@@ -9,3 +9,5 @@ int main () {
 // control c kills program
 // ++ adds one to the variable and
 // -- subtracts one from the variable
+
+// cin.ignore(256, '\n') syntax
