@@ -7,3 +7,5 @@ int main () {
 // Repetition are loops
 // while (condition) 
 // control c kills program
+// ++ adds one to the variable and
+// -- subtracts one from the variable
