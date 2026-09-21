@@ -3,24 +3,24 @@
 using namespace std;
 
 int main() {
-    int iterations = 1;
+    int potions = 1;
 
     do {
-        if (cin.fail() || iterations < 1 || iterations > 100)
+        if (cin.fail() || potions < 1 || potions > 100)
         {
-            cout << "Error: Iterations must be between 1 and 100\n";
+            cout << "Error: Potion count must be between 1 and 100\n";
             cin.clear();
             cin.ignore(256, '\n');
 
         }
-        cout << "How many numbers 1- value do you want to see? ";
-        cin >> iterations;
-     } while(cin.fail() || iterations < 1 || iterations > 100);
+        cout << "How many potions do you want to craft? ";
+        cin >> potions;
+     } while(cin.fail() || potions < 1 || potions > 100);
 
 
-    for (int i = 0; i < iterations; i++)
+    for (int i = 1; i <= potions; i++)
     {
-        cout << i << endl;
+        cout << "Making potion " << i << endl;
     }
     return 0;
 
