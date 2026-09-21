@@ -5,3 +5,4 @@ int main () {
 }
 
 // Repetition are loops
+// while (condition) 
