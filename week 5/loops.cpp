@@ -6,3 +6,4 @@ int main () {
 
 // Repetition are loops
 // while (condition) 
+// control c kills program
