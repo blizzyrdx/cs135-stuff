@@ -11,3 +11,4 @@ int main () {
 // -- subtracts one from the variable
 
 // cin.ignore(256, '\n') syntax
+// cin.clear () resets cin.fail() to false
