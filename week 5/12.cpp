@@ -22,15 +22,21 @@ do {
     }
 
     //run
-    if (selection == 'r' || selection == 'R')
+    else if (selection == 'r' || selection == 'R')
     {
         cout << "You run away\n";
-        return 0;
+        break;
     }
 
     //monster shoots fireball
+    else 
+    {
+        cout << "Invalid Selection\n";
+        continue; //new syntax
+    }
+
     cout << "The monster shoots a fireball at you\n";
-    p_health--;
+        p_health--;
 
     // show healths
     cout << "Monster Health: " << m_health << endl;
