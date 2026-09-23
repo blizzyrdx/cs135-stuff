@@ -7,8 +7,12 @@ int main () {
     int m_health = 10, p_health = 10;
     char selection; //IMPORTANT
 
+    
+    
     cout << "(K/k)ick -or- <R/r)un ";
     cin >> selection;
+
+do {
 
     //kick 
     if (selection == 'k' || selection == 'K')
@@ -31,6 +35,10 @@ int main () {
     // show healths
     cout << "Monster Health: " << m_health << endl;
     cout << "Player Health: " << p_health << endl;
+} while (m_health > 0 && p_health >= 0);
 
     return 0;
 }
+
+// new keyword: continue which can only be used for loops
+// break can be used for switch/loop 
