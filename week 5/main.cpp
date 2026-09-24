@@ -80,8 +80,26 @@ int main() {
         case 'D':
         case 'd':
         if (combat >= 100 && slayer >= 50) {
-            cout << "good1";
-            break;
+        cout << endl;
+        cout << left << setfill(' ') << setw(10) << "Monster" << setw(12) << "Probability" << setw(15) << right << "Max Assigned" << endl;
+        cout << setw(37) << setfill('-') << "" << endl;
+        cout << setfill(' ') << left << setw(10) << "Kalphite" << right << setw(11) << "30%" << setw(16) << "120" << endl;
+        cout << setfill(' ') << left << setw(10) << "Ankou" << right << setw(11) << "50%" << setw(16) << "250" << endl;
+        cout << setfill(' ') << left << setw(10) << "Dragon" << right << setw(11) << "0%" << setw(16) << "0" << endl;
+        cout << setfill(' ') << left << setw(10) << "Boss" << right << setw(11) << "20%" << setw(16) << "5" << endl;
+        break;
+        }
+
+        if (combat >= 100 && slayer >= 50 && slayer < 75) {
+        cout << "Kill counts halved because of slayer level"; 
+        cout << endl;
+        cout << left << setfill(' ') << setw(10) << "Monster" << setw(12) << "Probability" << setw(15) << right << "Max Assigned" << endl;
+        cout << setw(37) << setfill('-') << "" << endl;
+        cout << setfill(' ') << left << setw(10) << "Kalphite" << right << setw(11) << "30%" << setw(16) << "60" << endl;
+        cout << setfill(' ') << left << setw(10) << "Ankou" << right << setw(11) << "50%" << setw(16) << "125" << endl;
+        cout << setfill(' ') << left << setw(10) << "Dragon" << right << setw(11) << "0%" << setw(16) << "0" << endl;
+        cout << setfill(' ') << left << setw(10) << "Boss" << right << setw(11) << "20%" << setw(16) << "2" << endl;
+        break;
         }
         else {
             cout << "Error: Must have combat level 100 and slayer level 50 to visit Duradel" << endl;
