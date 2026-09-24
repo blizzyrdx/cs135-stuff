@@ -8,11 +8,12 @@ int main() { // start
     // define variable
     int slayer = 0; // slayer level
     int combat = 0; //define combat levle
-    char selection; //required for switches
+    char selection = 'k'; //required for switches 
+    // make sure to initialize selection
 
     //ask for combat level
     cout << "Combat Level: ";
-    cin >> combat;
+    cin >> combat; //combat turtles
 
     // Read Combat Level
     if (cin.fail()) { //cinfail for invalid numbers
@@ -50,7 +51,7 @@ int main() { // start
     }
 
     // fail for level over 126
-    if (slayer > 99) {
+    if (slayer > 99) { //slayer
         cout << "Error: Maximum slayer level is 99\n";
         return 0;
     }
@@ -134,3 +135,6 @@ int main() { // start
     } //end 
     return 0;
 }
+
+// assignment for CS135
+// directions in canvas
