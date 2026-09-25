@@ -12,10 +12,16 @@ int main() {
 
     // define variables
     // initialize
-    int monster_health = 0;
-    int player_health = 0;
+    int monster_health = 10;
+    int player_health = 10;
+
+    //initialize i
+    int i = 0;
 
     // Output the monster and player's health
+    // loop
+
+    do {
     cout << "Player Health: " << player_health << endl;
     cout << "Monster Health: " << monster_health << endl;
     cout << endl;
@@ -23,17 +29,41 @@ int main() {
     cin >> attack;
 
     // if fail
-    if (cin.fail() || attack < 1 || attack > 2) {
+    if (cin.fail()) {
      cout << "Error: Invalid selection";
+     cin.clear();
+     cin.ignore();
     }
 
-    else if (attack == 1) {
-        cout << "turtle";
+    if (i % 2 != 0) {
+        cout << endl;
+        cout << "The monster blocks your attack"; 
+        cout << endl;
+        i++;
+    }
+    if (attack == 1 && i % 2 == 0) {
+        cout << endl;
+        cout << "You stab the monster causing 2 damage" << endl;
+        cout << endl;
+        monster_health--;
+        monster_health--;
+        i++;
     }
 
-    else if (attack == 2) {
-        cout << "monkey";
+    if (attack == 2 && i % 2 == 0) {
+        cout << endl;
+        cout << "You slash the monster causing 3 damage" << endl;
+        cout << endl;
+        monster_health--;
+        monster_health--;
+        monster_health--;
+        i++;
     }
+} while (player_health > 0 && monster_health > 0);
+
+if (player_health <= 0 || monster_health <= 0) {
+    cout << "You killed the monster";
+}
 
     return 0;
 }
