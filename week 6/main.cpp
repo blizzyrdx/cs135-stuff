@@ -27,11 +27,11 @@ int main() {
      cout << "Error: Invalid selection";
     }
 
-    else if (attack = 1) {
+    else if (attack == 1) {
         cout << "turtle";
     }
 
-    else if (attack = 2) {
+    else if (attack == 2) {
         cout << "monkey";
     }
 
