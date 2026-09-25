@@ -107,7 +107,7 @@ int main() { // start
         }
         else {
             cout << "Error: Must have combat level 100 and slayer level 50 to visit Duradel" << endl;
-            break; //error break!
+            break; //error break! new
         }
 
         // final case switch
